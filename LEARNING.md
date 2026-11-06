@@ -36,11 +36,11 @@ I am learning AI engineering because I want to be capable of building, developin
 | 19 | Capstone Projects | Do | 620 |
 
 ## Progress log
-Current lesson: Phase 0, Lesson 1 — Dev Environment (in progress; quiz pending). Checkpoint: identified language runtimes as dependencies for AI libraries and correctly predicted the NumPy dot product (14).
 Learning support preference: help write concise lesson notes and reflections in the learner's own words, and retain useful takeaways alongside progress.
 
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
+| 2026-11-06 | 00/01 — Dev Environment | 3/3 | Reflection: Setup has layers that depend on the system foundation. `uv` helps install and resolve project packages consistently; this reduces environment-related setup failures but does not guarantee the application itself cannot crash. Correctly identified the PyTorch CUDA availability check. |
 
 ## Review queue
 <empty for now; learn adds lessons the quizzes flag>

@@ -1,0 +1,13 @@
+=== PYTHON ENVIRONMENT ===
+Python version: 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+
+=== NUMPY CHECK ===
+NumPy version: 2.5.4
+Vector: [1 2 3]
+Dot product: 14
+
+=== PYTORCH CHECK ===
+PyTorch version: 2.15.0+cu132
+Tensor: tensor([1, 2, 3])
+Tensor multiplied by 2: tensor([2, 4, 6])
+CUDA available: False

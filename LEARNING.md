@@ -42,6 +42,7 @@ Learning preferences: use clear, stepwise explanations connected to the health p
 | Date | Lesson | Quiz | Time / Reflection |
 |------|--------|------|-------------------|
 | 2026-11-06 | 00/01 — Dev Environment | 3/3 | Setup layers depend on the system foundation. `uv` helps install and resolve project packages consistently, reducing environment-related setup failures without guaranteeing the application itself cannot crash. Correctly predicted the NumPy dot product (14) and identified the PyTorch CUDA availability check. |
+| 2026-11-09 | 00/02 — Git & Collaboration | 3/3 | Explained that `git add` stages changes, `git commit` saves them locally, and `git push` backs committed work up to GitHub. Understood that branches isolate experiments until merged and `.gitignore` excludes large model checkpoints. |
 
 ## Review queue
 - Phase 5 and Phase 7 review recommended from the NLP & Transformers placement score (1/2); revisit LoRA, which trains low-rank adapters while base model weights stay frozen.

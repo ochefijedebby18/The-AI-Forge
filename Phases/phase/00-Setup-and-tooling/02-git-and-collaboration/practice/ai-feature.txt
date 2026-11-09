@@ -1,0 +1,5 @@
+AI Feature Development
+
+This is my first Git merge experiment.
+I am learning how branches keep development work separate.
+

@@ -1,0 +1,4 @@
+# Machine Learning Model Checkpoints
+*.pt
+*.pth
+*.safetensors

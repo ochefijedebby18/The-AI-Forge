@@ -9,7 +9,7 @@ I am learning AI engineering because I want to be capable of building, developin
 - Date: 2026-11-05
 - Score: 9/10 (Math & Statistics: 2/2; Classical ML: 2/2; Deep Learning: 2/2; NLP & Transformers: 1/2; Applied AI: 2/2)
 - Placement entry point: Phase 11: LLM Engineering
-- Current starting point: Phase 0, Lesson 1, at learner's request
+- Current starting point: Phase 0, Lesson 3, at learner's request
 - Pace: ~25–30+ hours/week
 
 ## Path

@@ -71,5 +71,3 @@ This lesson helped me understand that software development involves more than wr
 I can now create branches, commit changes, merge experimental work, inspect project history, and push my work to GitHub.
 
 I am becoming more confident using Git as part of my AI engineering learning journey.
-
-**Lesson status:** Completed — practical exercises performed and learning progress recorded.

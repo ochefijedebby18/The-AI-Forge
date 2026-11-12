@@ -9,7 +9,7 @@ I am learning AI engineering because I want to be capable of building, developin
 - Date: 2026-11-05
 - Score: 9/10 (Math & Statistics: 2/2; Classical ML: 2/2; Deep Learning: 2/2; NLP & Transformers: 1/2; Applied AI: 2/2)
 - Placement entry point: Phase 11: LLM Engineering
-- Current starting point: Phase 0, Lesson 3, at learner's request
+- Current starting point: Phase 0, Lesson 4, at learner's request
 - Pace: ~25–30+ hours/week
 
 ## Path
@@ -45,6 +45,7 @@ Learning preferences: use clear, stepwise explanations connected to the health p
 | 2026-11-09 | 00/02 — Git & Collaboration | 3/3 | Explained that `git add` stages changes, `git commit` saves them locally, and `git push` backs committed work up to GitHub. Understood that branches isolate experiments until merged and `.gitignore` excludes large model checkpoints. |
 | 2026-11-10 | 00/03 — GPU Setup & Cloud (started) | — | Started the lesson and completed Git warm-up recall; lesson continued the next day. |
 | 2026-11-11 | 00/03 — GPU Setup & Cloud | 3/3 | Reflection: CPU fallback keeps work running without CUDA; Colab provides remote GPU compute. `nvidia-smi` checks NVIDIA GPU status, synchronization makes benchmark timing accurate, and fp16 uses roughly 2 bytes per parameter (12B parameters for 24 GB, before other memory needs). |
+| 2026-11-12 | 00/04 — APIs & Keys (in progress) | Pending | Session started; GPU recall warm-up and lesson checkpoints will be added as we proceed. |
 
 ## Review queue
 - Phase 5 and Phase 7 review recommended from the NLP & Transformers placement score (1/2); revisit LoRA, which trains low-rank adapters while base model weights stay frozen.

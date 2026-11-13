@@ -46,6 +46,7 @@ Learning preferences: use clear, stepwise explanations connected to the health p
 | 2026-11-10 | 00/03 — GPU Setup & Cloud (started) | — | Started the lesson and completed Git warm-up recall; lesson continued the next day. |
 | 2026-11-11 | 00/03 — GPU Setup & Cloud | 3/3 | Reflection: CPU fallback keeps work running without CUDA; Colab provides remote GPU compute. `nvidia-smi` checks NVIDIA GPU status, synchronization makes benchmark timing accurate, and fp16 uses roughly 2 bytes per parameter (12B parameters for 24 GB, before other memory needs). |
 | 2026-11-12 | 00/04 — APIs & Keys (in progress) | Pending | Session started; GPU recall warm-up and lesson checkpoints will be added as we proceed. |
+| 2026-11-13 | 00/04 — APIs & Keys (in progress) | Pending | Continued across study days. Correctly recalled that `nvidia-smi` checks NVIDIA GPU status and `torch.cuda.synchronize()` waits for queued GPU work to finish. Identified that an API key proves identity and authorizes access; clarified that the request body carries the task and relevant data. Understands `.gitignore` keeps an untracked `.env` out of `git status`. |
 
 ## Review queue
 - Phase 5 and Phase 7 review recommended from the NLP & Transformers placement score (1/2); revisit LoRA, which trains low-rank adapters while base model weights stay frozen.

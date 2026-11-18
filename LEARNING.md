@@ -37,7 +37,7 @@ I am learning AI engineering because I want to be capable of building, developin
 | 19 | Capstone Projects | Do | 620 |
 
 ## Progress log
-Learning preferences: use clear, stepwise explanations connected to the health platform; help organize files and commands; help write concise notes and reflections; track progress day by day.
+Learning preferences: give detailed, clear, stepwise explanations connected to the health platform; define new terms and walk through examples; ask thoughtful questions that check understanding and invite application; help organize files and commands; help write concise notes and reflections; track progress day by day, including incomplete sessions.
 
 | Date | Lesson | Quiz | Time / Reflection |
 |------|--------|------|-------------------|
@@ -49,6 +49,7 @@ Learning preferences: use clear, stepwise explanations connected to the health p
 | 2026-11-13 | 00/04 — APIs & Keys (in progress) | Pending | Continued across study days. Correctly recalled that `nvidia-smi` checks NVIDIA GPU status and `torch.cuda.synchronize()` waits for queued GPU work to finish. Identified that an API key proves identity and authorizes access; clarified that the request body carries the task and relevant data. Understands `.gitignore` keeps an untracked `.env` out of `git status`. |
 | 2026-11-15 | 00/04 — APIs & Keys (in progress) | Pending | Reviewed `os.environ.get(name, default)`: use the environment setting when present, otherwise use the supplied fallback value. |
 | 2026-11-16 | 00/04 — APIs & Keys | 3/3 | Reflection: API keys identify and authorize requests, so keep them in environment variables or a `.env` excluded by `.gitignore`. Understood model fallback behavior, that raw HTTP exposes request details, Anthropic uses `x-api-key`, and HTTP 429 requires waiting before retrying. |
+| 2026-11-18 | 00/05 — Jupyter Notebooks (in progress) | Pending | Session started. Recalled that Anthropic sends API keys in `x-api-key` and that rate limiting returns HTTP 429, requiring a wait before retrying. Clarified that the notebook's kernel keeps variables available across cells. Correctly calculated the fictional data mean as 73.667 (rounded) and chose `%%time` for a single training run. For fictional health-risk comparisons, chose recall and false-positive rate and discussed recording the evaluation threshold. Add lesson checkpoints today even if the lesson remains incomplete. |
 
 ## Review queue
 - Phase 5 and Phase 7 review recommended from the NLP & Transformers placement score (1/2); revisit LoRA, which trains low-rank adapters while base model weights stay frozen.

@@ -187,7 +187,5 @@ Solutions:
 - Notebooks are excellent for experimentation.
 - Scripts are better for reusable and production code.
 
-### Final Principle
-
 **Explore in notebooks. Build reliable code in scripts. Deploy your systems as applications.**
 

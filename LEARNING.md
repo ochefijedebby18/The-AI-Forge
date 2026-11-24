@@ -37,7 +37,7 @@ I am learning AI engineering because I want to be capable of building, developin
 | 19 | Capstone Projects | Do | 620 |
 
 ## Progress log
-Learning preferences: give detailed, clear, stepwise explanations connected to the health platform; define new terms and walk through examples; ask thoughtful questions that check understanding and invite application; help organize files and commands; help write concise notes and reflections; track progress day by day, including incomplete sessions.
+Learning preferences: give detailed, clear, stepwise explanations grounded in the relevant AI Engineering from Scratch lesson; define new terms and walk through examples from varied project types (including health, games, and loan apps, not health alone); explain each subject before asking a question, and base questions on material just taught; ask thoughtful questions that check understanding and invite application; help organize files and commands; help write concise notes and reflections; track progress day by day, including incomplete sessions.
 
 | Date | Lesson | Quiz | Time / Reflection |
 |------|--------|------|-------------------|
@@ -51,6 +51,7 @@ Learning preferences: give detailed, clear, stepwise explanations connected to t
 | 2026-11-16 | 00/04 — APIs & Keys | 3/3 | Reflection: API keys identify and authorize requests, so keep them in environment variables or a `.env` excluded by `.gitignore`. Understood model fallback behavior, that raw HTTP exposes request details, Anthropic uses `x-api-key`, and HTTP 429 requires waiting before retrying. |
 | 2026-11-18 | 00/05 — Jupyter Notebooks (started) | — | Started the lesson; continued on later study days. Recalled that Anthropic sends API keys in `x-api-key` and that rate limiting returns HTTP 429, requiring a wait before retrying. Clarified that the notebook's kernel keeps variables available across cells. Correctly calculated the fictional data mean as 73.667 (rounded) and chose `%%time` for a single training run. For fictional health-risk comparisons, chose recall and false-positive rate and discussed recording the evaluation threshold. |
 | 2026-11-19 | 00/05 — Jupyter Notebooks | 3/3 | Reflection: notebooks support exploration and visualization, while scripts suit repeatable pipelines. Explained that restarting and running cells in order reveals hidden dependencies; chose `.py` for nightly training because it runs consistently outside the notebook. |
+| 2026-11-24 | 00/06 — Python Environments (in progress) | Pending | Session started. Recalled that `%%time` runs one cell once and that reusable utilities, training pipelines, and production code belong in scripts. Applied environment isolation to game and loan app projects: changing one project's dependencies should not affect the other's. Add lesson checkpoints and reflection today even if the lesson remains incomplete. |
 
 ## Review queue
 - Phase 5 and Phase 7 review recommended from the NLP & Transformers placement score (1/2); revisit LoRA, which trains low-rank adapters while base model weights stay frozen.
